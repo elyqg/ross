@@ -1454,6 +1454,10 @@ class MagneticBearingElement(BearingElement):
         )
 
 
+class HydrodynamicBearing(BearingElement):
+    pass
+
+
 class BearingElement6DoF(BearingElement):
     """A generalistic 6 DoF bearing element. This class will create a bearing
     element based on the user supplied stiffness and damping coefficients. These
